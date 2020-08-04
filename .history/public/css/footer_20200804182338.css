@@ -1,0 +1,50 @@
+/*============================
+ *    05. SECTION FOOTER     *
+ *===========================*/
+#footer {
+	background: #07090d;
+}
+#footer .widget {
+	padding: 2rem 0;
+	text-align: center;
+	line-height: 0;
+}
+#footer .ft-copyright p {
+	font-family: 'SourceSansPro-Regular';
+	font-size: 18px;
+	color: #878787;
+	margin: 0;
+	line-height: 45px;
+}
+#footer .ft-copyright p a {
+	color: var(--accent-second);
+}
+#footer .ft-copyright p a:hover {
+	opacity: 0.8;
+}
+#footer .ft-socialmedia {
+	margin-bottom: 0;
+	text-align: center;
+}
+@media (min-width: 576px) {
+	#footer .ft-socialmedia {
+	}
+}
+@media (min-width: 768px) {
+	#footer .ft-socialmedia {
+	}
+}
+#footer .ft-socialmedia a {
+	margin-right: 0;
+	margin-left: 10px;
+}
+#footer .ft-socialmedia a span {
+	background-color: var(--accent-second);
+	transform: translateX(-100%);
+}
+#footer .ft-socialmedia a:hover {
+	opacity: 0.8;
+}
+#footer .ft-socialmedia a:hover span {
+	transform: translateX(0%);
+}

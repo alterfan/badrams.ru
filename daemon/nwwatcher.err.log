@@ -1,0 +1,60 @@
+internal/modules/cjs/loader.js:983
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\alter\www\badrams.ru\js\server\server.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:980:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:862:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:983
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\alter\www\badrams.ru\js\server\server.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:980:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:862:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:983
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\alter\www\badrams.ru\js\server\server.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:980:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:862:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:983
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\alter\www\badrams.ru\js\server\server.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:980:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:862:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+internal/modules/cjs/loader.js:983
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\alter\www\badrams.ru\js\server\server.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:980:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:862:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}

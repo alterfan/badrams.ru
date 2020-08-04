@@ -1,0 +1,75 @@
+#works {
+	background: var(--bg-blue);
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 5px 0 var(--bg-black);
+}
+#works .article {
+	background-image: url('../assests/img/pattern.png');
+	background-repeat: repeat;
+}
+#works h2 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	line-height: 2rem;
+	margin: 24px 0;
+	color: #fc3565;
+}
+#works h6 {
+	line-height: 24px;
+}
+#works h6 span {
+	color: white;
+	line-height: 12px;
+}
+#works p {
+	font-family: 'Jura', sans-serif;
+	font-size: 1rem;
+	font-style: italic;
+	line-height: 24px;
+	margin: 24px 0;
+	color: #bbbbc4;
+}
+#works a {
+	color: #bbbbc4;
+	text-decoration: none;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	cursor: pointer;
+	vertical-align: middle;
+}
+#works a:hover {
+	color: #fc3565;
+}
+.teaser {
+	padding: 10px;
+}
+.minimap {
+	background: url('../assests/cm-minimap.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.schlitz {
+	background: url('../assests/schlitz.png');
+	background-size: cover;
+}
+.game {
+	background: url('../assests/fronty.png');
+	background-size: cover;
+}
+.tictac {
+	background: url(../assests/tictac.png);
+	background-position: -13vw -6vw;
+	background-size: 70vw;
+}
+.img {
+	background-repeat: no-repeat;
+	height: 250px;
+	width: 100%;
+}
+#works .row {
+	margin-bottom: 1.5rem;
+}

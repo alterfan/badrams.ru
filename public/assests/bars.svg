@@ -1,0 +1,11 @@
+<svg class="" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <g class="bars">
+        <line x1="0" x2="100" y1="14" y2="14" stroke-width="14" stroke-linecap="round"  />
+        <line x1="0" x2="100" y1="50" y2="50" stroke-width="14" stroke-linecap="round"  />
+        <line x1="0" x2="100" y1="86" y2="86" stroke-width="14" stroke-linecap="round"  />
+    </g>
+    <g class="times">
+        <line x1="14" x2="86" y1="14" y2="86" stroke-width="14" stroke-linecap="round"  />
+        <line x1="14" x2="86" y1="86" y2="14" stroke-width="14" stroke-linecap="round"  />
+    </g>
+</svg>

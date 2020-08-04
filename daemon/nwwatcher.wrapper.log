@@ -1,0 +1,26 @@
+2020-05-05 17:10:13 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\alter\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\Users\alter\www\badrams.ru\app.js --scriptoptions= --log "NW watcher wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-05-05 17:10:13 - Started 9572
+2020-05-05 17:15:09 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\alter\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\Users\alter\www\badrams.ru\app.js --scriptoptions= --log "NW watcher wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-05-05 17:15:09 - Started 4964
+2020-05-05 17:18:15 - Stopping nwwatcher.exe
+2020-05-05 17:18:15 - ProcessKill 4964
+2020-05-05 17:18:16 - Found child process: 4984 Name: conhost.exe
+2020-05-05 17:18:16 - Found child process: 4120 Name: node.exe
+2020-05-05 17:18:16 - Stopping process 4984
+2020-05-05 17:18:16 - Send SIGINT 4984
+2020-05-05 17:18:16 - SIGINT to 4984 failed - Killing as fallback
+2020-05-05 17:18:16 - Found child process: 2024 Name: node.exe
+2020-05-05 17:18:16 - Found child process: 2068 Name: conhost.exe
+2020-05-05 17:18:16 - Stopping process 2068
+2020-05-05 17:18:16 - Send SIGINT 2068
+2020-05-05 17:18:16 - SIGINT to 2068 failed - Killing as fallback
+2020-05-05 17:18:16 - Stopping process 2024
+2020-05-05 17:18:16 - Send SIGINT 2024
+2020-05-05 17:18:16 - SIGINT to 2024 failed - Killing as fallback
+2020-05-05 17:18:16 - Stopping process 4120
+2020-05-05 17:18:16 - Send SIGINT 4120
+2020-05-05 17:18:16 - SIGINT to 4120 failed - Killing as fallback
+2020-05-05 17:18:16 - Stopping process 4964
+2020-05-05 17:18:16 - Send SIGINT 4964
+2020-05-05 17:18:16 - SIGINT to 4964 failed - Killing as fallback
+2020-05-05 17:18:16 - Finished nwwatcher.exe

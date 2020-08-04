@@ -1,0 +1,26 @@
+var Service = require('node-windows').Service
+const _path = 'C:\\Users\\alter\\www\\badrams.ru\\server.js'
+console.log('_path: ', _path);
+console.log('__dirname: ', __dirname);
+
+// Create a new service object
+var svc = new Service({
+	name: 'Auto_Restart_Server',
+	description: 'The nodejs.org example web server.',
+	script: ,
+})
+
+// Listen for the "install" event, which indicates the
+// process is available as a service.
+svc.on('install', function () {
+	svc.start()
+})
+
+// Listen for the "start" event and let us know when the
+// process has actually started working.
+svc.on('start', function () {
+	console.log(svc.name + ' service running')
+})
+
+// Install the script as a service.
+svc.install()

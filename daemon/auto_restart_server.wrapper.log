@@ -1,0 +1,16 @@
+2020-05-05 17:35:12 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\alter\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\Users\alter\www\badrams.ru\app.js --scriptoptions= --log "Auto_Restart_Server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-05-05 17:35:12 - Started 6896
+2020-05-05 17:39:34 - Stopping auto_restart_server.exe
+2020-05-05 17:39:34 - ProcessKill 6896
+2020-05-05 17:39:35 - Found child process: 7340 Name: conhost.exe
+2020-05-05 17:39:35 - Found child process: 5612 Name: node.exe
+2020-05-05 17:39:35 - Stopping process 7340
+2020-05-05 17:39:35 - Send SIGINT 7340
+2020-05-05 17:39:35 - SIGINT to 7340 failed - Killing as fallback
+2020-05-05 17:39:35 - Stopping process 5612
+2020-05-05 17:39:35 - Send SIGINT 5612
+2020-05-05 17:39:35 - SIGINT to 5612 failed - Killing as fallback
+2020-05-05 17:39:35 - Stopping process 6896
+2020-05-05 17:39:35 - Send SIGINT 6896
+2020-05-05 17:39:35 - SIGINT to 6896 failed - Killing as fallback
+2020-05-05 17:39:35 - Finished auto_restart_server.exe

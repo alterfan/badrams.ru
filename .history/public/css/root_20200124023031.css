@@ -1,0 +1,61 @@
+:root {
+    --a: #fff;
+    --pink: #ff0059;
+    --primary: rgb(255, 255, 255);
+    --opacity: rgba(255, 255, 255, 0);
+    --accent: #6929ff;
+    --accent-second: #58ffd5;
+    --cyan: #00f7b9a1;
+    --accent-third: #ff0059;
+    --dark: #141416;
+    --black: rgb(14, 14, 14);
+    --bg-dark: rgb(15, 14, 10);
+    --bg-blue: rgba(62, 40, 161, 0.75);
+    --bg-purple: rgba(98, 0, 255, 0.5);
+    --bg-cyan: rgba(16, 201, 201, 0.85);
+    --bg-cyan-o: rgba(88, 255, 213, 0.733);
+    --bg-dark-o: rgba(0, 0, 0, 0.5);
+    --bg-black: rgba(0, 0, 0, 1);
+    --bg-black-o: rgba(0, 0, 0, 0.75);
+    --bg-white: rgba(255, 255, 255, 0.6);
+    --bg: rgba(15, 0, 58, 0.5);
+    --nav-height: 64px;
+    --img-pattern: url(../assests/img/pattern.png);
+    --img-main: url(../assests/img/main.jpg);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-display: auto;
+    src: local('Roboto'), local('Roboto'), url(../assests/fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Jura';
+    font-style: normal;
+    font-display: auto;
+    src: local('Jura'), local('Jura'), url(../assests/fonts/Jura.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'justabit';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: local('justabit'), local('justabit'), url(../assests/fonts/justabit.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-display: auto;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url(../assests/fonts/Montserrat.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-display: auto;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url(../assests/fonts/Montserrat.ttf) format('truetype');
+}

@@ -1,0 +1,26 @@
+2020-05-05 18:07:25 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\alter\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\Users\alter\www\badrams.ru\server.js --scriptoptions= --log "AUTORESTART wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-05-05 18:07:25 - Started 10820
+2020-05-05 18:08:28 - Stopping autorestart.exe
+2020-05-05 18:08:28 - ProcessKill 10820
+2020-05-05 18:08:28 - Found child process: 10016 Name: conhost.exe
+2020-05-05 18:08:28 - Found child process: 4544 Name: node.exe
+2020-05-05 18:08:28 - Stopping process 10016
+2020-05-05 18:08:28 - Send SIGINT 10016
+2020-05-05 18:08:28 - SIGINT to 10016 failed - Killing as fallback
+2020-05-05 18:08:28 - Found child process: 7396 Name: node.exe
+2020-05-05 18:08:28 - Found child process: 1764 Name: conhost.exe
+2020-05-05 18:08:28 - Stopping process 1764
+2020-05-05 18:08:28 - Send SIGINT 1764
+2020-05-05 18:08:28 - SIGINT to 1764 failed - Killing as fallback
+2020-05-05 18:08:28 - Stopping process 7396
+2020-05-05 18:08:28 - Send SIGINT 7396
+2020-05-05 18:08:28 - SIGINT to 7396 failed - Killing as fallback
+2020-05-05 18:08:28 - Stopping process 4544
+2020-05-05 18:08:28 - Send SIGINT 4544
+2020-05-05 18:08:28 - SIGINT to 4544 failed - Killing as fallback
+2020-05-05 18:08:28 - Stopping process 10820
+2020-05-05 18:08:28 - Send SIGINT 10820
+2020-05-05 18:08:28 - SIGINT to 10820 failed - Killing as fallback
+2020-05-05 18:08:28 - Finished autorestart.exe
+2020-05-05 18:09:55 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\alter\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\Users\alter\www\badrams.ru\server.js --scriptoptions= --log "AUTORESTART wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-05-05 18:09:55 - Started 1264

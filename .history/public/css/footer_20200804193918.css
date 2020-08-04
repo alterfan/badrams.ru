@@ -1,0 +1,97 @@
+/*============================
+ *    05. SECTION FOOTER     *
+ *===========================*/
+#footer {
+	background: #07090d;
+}
+#footer h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+#footer .footer__contacts {
+	padding: 2rem 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+#footer .footer__contacts ul {
+	list-style: none;
+}
+#footer .footer__contacts ul li {
+	font-family: 'Montserrat', sans-serif;
+}
+#footer .footer__contacts ul li span {
+	font-weight: 200;
+}
+#footer .footer__contacts ul li a {
+	color: rgb(47, 120, 255);
+	font-style: italic;
+	font-weight: bold;
+}
+#footer .footer__contacts ul .col-5 {
+	text-align: right;
+}
+#footer .footer__contacts ul .col-7 {
+	text-align: center;
+}
+#footer .footer__socialmedia {
+	padding: 2rem 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+#footer .footer__socialmedia a {
+	color: var(--primary);
+	margin-right: 0;
+	width: 2.2rem;
+	height: 2.2rem;
+	padding: 0.15rem;
+	position: relative;
+	border: 2px white solid;
+	background: none;
+	margin-left: 10px;
+}
+#footer .footer__socialmedia a::before {
+	position: relative;
+	font-size: 1.6rem;
+	width: 100%;
+	height: 100%;
+	background: none;
+	z-index: 100;
+}
+#footer .footer__socialmedia a span {
+	-webkit-transition: color 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
+		width 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+	-moz-transition: color 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
+		width 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+	-ms-transition: color 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
+		width 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+	-o-transition: color 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
+		width 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+	transition: color 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
+		width 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 2rem;
+	z-index: 0;
+	background-color: var(--primary);
+}
+#footer .footer__socialmedia a:hover {
+	color: var(--black);
+}
+#footer .footer__socialmedia a:hover span {
+	width: 2rem;
+}
+#footer .footer__copyright {
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	font-size: 0.8rem;
+	color: #878787;
+	margin: 0;
+	line-height: 1.5;
+}
+#footer .footer__copyright p a {
+	color: var(--accent-second);
+}
+#footer .footer__copyright p a:hover {
+	opacity: 0.8;
+}

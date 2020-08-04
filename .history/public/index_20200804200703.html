@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Vasiliy Printsev</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+		<link rel="stylesheet" href="./lib/bootstrap-grid.css" />
+		<link rel="stylesheet" href="./assests/brands/css/hh.css" />
+		<link rel="stylesheet" href="./lib/animate.min.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/header.css" />
+		<link rel="stylesheet" href="./css/menu-button.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/skills.css" />
+		<link rel="stylesheet" href="./css/works.css" />
+		<link rel="stylesheet" href="./css/info.css" />
+		<link rel="stylesheet" href="./css/contact.css" />
+		<link rel="stylesheet" href="./css/footer.css" />
+	</head>
+	<body class="blur" data-scrollbar>
+		<div id="app">
+			<header class="header animated animated-duration-2700ms fadeInDown" data-type="header">
+				<div class="header-container">
+					<div class="header__scroll">
+						<svg
+							viewBox="0 0 100 100"
+							xmlns="http://www.w3.org/640/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink"
+						>
+							<line x1="50" x2="20" y1="30" y2="80" stroke-width="10" stroke-linecap="round"></line>
+							<line x1="50" x2="80" y1="30" y2="80" stroke-width="10" stroke-linecap="round"></line>
+						</svg>
+					</div>
+					<div class="header__menu">
+						<a id="bars" class="menu-button" data-type="menu" v-on:click="toggleMobileMenu()"></a>
+					</div>
+					<nav id="nav" class="header__nav" v-bind:class="active" v-on:click.prevent>
+						<a
+							class="link"
+							href="#info"
+							v-scroll-to="{el:'#info',onStart: onStart,onDone: onDone,onCancel: onCancel,}"
+						>
+							info</a
+						>
+						<a
+							class="link"
+							href="#skills"
+							v-scroll-to="{el:'#skills', onStart: onStart,onDone: onDone,onCancel: onCancel,}"
+							>my skills</a
+						>
+						<a
+							class="link"
+							href="#works"
+							v-scroll-to="{el:'#works',  onStart: onStart, onDone: onDone, onCancel: onCancel,}"
+							>works</a
+						>
+						<a
+							class="link"
+							href="#contact"
+							v-scroll-to="{el:'#contact',  onStart: onStart, onDone: onDone, onCancel: onCancel,}"
+							>contact</a
+						>
+					</nav>
+					<!--  <nav class="header__nav">
+                <a href="#" class="home" v-on:click="makeActive('home')">Главная</a>
+                <a href="#" class="projects" v-on:click="makeActive('projects')">Проекты</a>
+                <a href="#" class="services" v-on:click="makeActive('services')">Услуги</a>
+                <a href="#" class="contact" v-on:click="makeActive('contact')">Контакты</a>
+            </nav> -->
+				</div>
+			</header>
+			<section id="main"></section>
+			<section id="info" data-type="anchor"></section>
+			<section id="skills" data-type="anchor"></section>
+			<section id="works" data-type="anchor"></section>
+			<section id="contact" data-type="anchor"></section>
+			<section id="footer" class="footer">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-6">
+							<p class="footer__h2">Contact Me</p>
+							<div class="footer__contacts">
+								<ul>
+									<li>
+										<div class="container">
+											<div class="row">
+												<div class="col-12">
+													<a href="mailto:hello@goodboydigital.com">hello@goodboydigital.com</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="container">
+											<div class="row">
+												<div class="col-6"><p class="small"></p></div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="container">
+											<div class="row">
+												<div class="col-12">
+													<a href="tel:+79166082730">+7(916)6082730</a>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<p class="footer__h2">Social</p>
+							<div class="footer__socialmedia">
+								<a
+									href="https://mytischi.hh.ru/applicant/resumes/view?resume=3c12bfaeff07ab48170039ed1f4177324e336d"
+									target="_blank"
+									class="main__link fab fa-linkedin-in animated"
+								>
+									<span></span>
+								</a>
+								<a
+									target="_blank"
+									class="main__link fab fa-github animated"
+									href="https://github.com/alterfan"
+								>
+									<span></span>
+								</a>
+								<a
+									target="_blank"
+									class="main__link fab fa-codepen animated"
+									href="https://codepen.io/alterfan"
+								>
+									<span></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<div class="col-md-6 col-12">
+								<div class="footer__copyright">
+									<p>
+										Copyright © 2020 <a href="#"><i>Vasiliy Printsev.</i></a> All Rights Reserved.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue-scrollto"></script>
+		<script src="./lib/jquery.min.js"></script>
+		<script src="./lib/wowJS/wow.min.js"></script>
+		<script type="module" src="./js/script.js"></script>
+	</body>
+</html>

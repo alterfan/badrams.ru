@@ -1,0 +1,11 @@
+{
+  "commands": [{
+    "alignment": "left",
+    "priority": -50,
+    "command": "workbench.action.terminal.sendSequence",
+    "arguments": "npm start/n [system.Diagnostics.Process]::Start('firefox','localhost')/n",
+    "text": "$(play) server",
+    "tooltip": "Refresh commands",
+    "color": "#FF00F2"
+  }]
+}

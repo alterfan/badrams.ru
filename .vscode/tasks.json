@@ -1,0 +1,20 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [{
+            "label": "Open ssh",
+            "type": "shell",
+            "command": "ssh ovz18.alterfan.n0ykp.vps.myjino.ru -p49499 -l root",
+            "args": [
+                "10000000"
+            ]
+        },
+        {
+            "label": "npm",
+            "type": "shell",
+            "command": "npm start"
+        }
+    ],
+
+}

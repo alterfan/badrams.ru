@@ -1,0 +1,361 @@
+/*=============================================
+=            slide down            =
+=============================================*/
+@-webkit-keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+    }
+
+    70% {
+        opacity: 1;
+        transform: translateY(0%);
+        -webkit-transform: translateY(00%);
+        -moz-transform: translateY(00%);
+        -ms-transform: translateY(00%);
+        -o-transform: translateY(00%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+        -webkit-transform: translateY(00%);
+        -moz-transform: translateY(00%);
+        -ms-transform: translateY(00%);
+        -o-transform: translateY(00%);
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+    }
+
+    70% {
+        transform: translateY(0%);
+        -webkit-transform: translateY(00%);
+        -moz-transform: translateY(00%);
+        -ms-transform: translateY(00%);
+        -o-transform: translateY(00%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+        -webkit-transform: translateY(00%);
+        -moz-transform: translateY(00%);
+        -ms-transform: translateY(00%);
+        -o-transform: translateY(00%);
+    }
+}
+
+/*=====  End of slide down  ======*/
+/*=============================================
+=            slide up            =
+=============================================*/
+@-webkit-keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        -o-transform: translateY(100%);
+    }
+
+    70% {
+        opacity: 1;
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        -o-transform: translateY(100%);
+    }
+
+    70% {
+        opacity: 1;
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+}
+
+/*=====  End of slide up  ======*/
+/*=============================================
+=            slide left            =
+=============================================*/
+@-webkit-keyframes slideLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+}
+
+/*=============================================
+=            slide right            =
+=============================================*/
+@-webkit-keyframes slideRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+        overflow-x: hidden;
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+        overflow-x: hidden;
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        overflow-x: hidden;
+    }
+}
+
+/*=====  End of slide left  ======*/
+/*=============================================
+=            fade            =
+=============================================*/
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+
+
+/*=====  End of fade  ======*/
+.slideDown {
+    animation-duration: 1800ms;
+    animation-fill-mode: backwards;
+    animation-name: slideDown;
+    -webkit-animation-name: slideDown;
+}
+
+.slideDownFast {
+    animation-duration: 900ms;
+    animation-fill-mode: backwards;
+    animation-name: slideDown;
+    -webkit-animation-name: slideDown;
+}
+
+.slideUp {
+    animation-duration: 1800ms;
+    animation-fill-mode: backwards;
+    animation-name: slideUp;
+    -webkit-animation-name: slideUp;
+}
+
+.slideLeft {
+    animation-name: slideLeft;
+    -webkit-animation-name: slideLeft;
+    animation-duration: 2000ms;
+}
+
+.slideRight {
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight;
+    animation-duration: 2000ms;
+}
+
+.slideRightFast {
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight;
+    animation-duration: 900ms;
+    visibility: visible;
+}
+
+.hideRightFast {
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight;
+    animation-duration: 900ms;
+    visibility: visible;
+}
+
+.scale3D {
+    transform: scale3d(0, 0, 1);
+    -webkit-transform: scale3d(0, 0, 1);
+    -ms-transform: scale3d(0, 0, 1);
+    -moz-transform: scale3d(0, 0, 1);
+    -o-transform: scale3d(0, 0, 1);
+}
+
+.rotate {
+    animation-name: rotateRight;
+    -webkit-animation-name: rotateRight;
+    animation-duration: 1800ms;
+    animation-delay: 1800ms;
+}
+
+.fadeIn {
+    animation-duration: 1800ms;
+    animation-fill-mode: backwards;
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+}
+
+.fadeInFast {
+    animation-duration: 900ms;
+    animation-fill-mode: backwards;
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+}
+
+.animation-fadeIn-0 {
+    animation-duration: 1000ms;
+    animation-fill-mode: backwards;
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+}
+
+.animation-fadeIn-700 {
+    animation-delay: 700ms;
+    animation-duration: 1000ms;
+    animation-fill-mode: backwards;
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+}
+
+.animation-fadeIn-1000 {
+    animation-delay: 1000ms;
+    animation-duration: 1000ms;
+    animation-fill-mode: backwards;
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+}
+
+.startFirst,
+.animation-delay-900 {
+    animation-delay: 900ms;
+    animation-fill-mode: backwards;
+}
+
+.startSecond {
+    animation-delay: 1200ms;
+    animation-fill-mode: backwards;
+}
+
+.startThird {
+    animation-delay: 2000ms;
+    animation-fill-mode: backwards;
+}
+
+.transition {
+    transition: width .3s ease-in-out, background-color 500s ease-in-out, color 500s ease-in-out, opacity 500s ease-in-out, transform 500s ease-in-out, filter 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    -webkit-transition: width .3s ease-in-out, background-color 500s ease-in-out, color 500s ease-in-out, opacity 500s ease-in-out, transform 500s ease-in-out, filter 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    -moz-transition: width .3s ease-in-out, background-color 500s ease-in-out, color 500s ease-in-out, opacity 500s ease-in-out, transform 500s ease-in-out, filter 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    -ms-transition: width .3s ease-in-out, background-color 500s ease-in-out, color 500s ease-in-out, opacity 500s ease-in-out, transform 500s ease-in-out, filter 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    -o-transition: width .3s ease-in-out, background-color 500s ease-in-out, color 500s ease-in-out, opacity 500s ease-in-out, transform 500s ease-in-out, filter 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
