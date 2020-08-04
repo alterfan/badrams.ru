@@ -1,6 +1,6 @@
 {
 	"name": "badrams.ru",
-	"version": "0.0.0",
+	"version": "0.2.0",
 	"private": true,
 	"scripts": {
 		"service-start": "node node-windows/service-start.js",
@@ -24,5 +24,21 @@
 		"subdomain": "^1.2.0",
 		"vhost": "^3.0.2",
 		"vue": "^2.6.11"
-	}
+	},
+	"description": "portfolio site",
+	"main": "app.js",
+	"directories": {
+		"lib": "lib"
+	},
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/alterfan/badrams.ru.git"
+	},
+	"author": "Vasiliy Printsev",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/alterfan/badrams.ru/issues"
+	},
+	"homepage": "https://github.com/alterfan/badrams.ru#readme"
 }
